@@ -1,0 +1,231 @@
+body {
+
+    background-color: #eaeaeb;
+    color: #6e6e6e;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.navbar {
+
+    background-color: rgb(9, 9, 126);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(9, 9, 126);
+
+}
+
+.navbar li {
+
+    float: left;
+
+}
+
+.navbar li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar h2 {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+
+
+}
+
+.navbar #logoff {
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    float: right;
+
+}
+
+.navbar #logoff a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.login {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+input {
+
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+input[type="submit"] {
+
+    background-color: #20ad60;
+    border: 1px solid #19864a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.message-form {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.message-form input {
+
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.message-form input[type="submit"] {
+
+    background-color: #20ad60;
+    border: 1px solid #19864a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.message-form textarea {
+
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 96%;
+    height: 200px;
+    resize: none;
+
+}
+
+.messages-received {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.messages-received .message {
+
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.exams {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    width: 500px;
+
+
+}
+
+.home {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.box {
+
+    background-color: #fff;
+    border: 1px solid rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.box .teacher-button {
+
+    background-color: #00bcd4;
+    border: 1px solid #0d98aa;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.box .admin-button {
+
+    background-color: #0059ff;
+    border: 1px solid #0042bd;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
